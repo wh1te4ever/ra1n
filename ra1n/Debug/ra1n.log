@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(741,10): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(741,10): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(766,47): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(766,47): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(1259,38): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\libusb.h(1259,38): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(108,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(122,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(211,21): warning C4244: '인수': 'std::streamoff'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(219,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(224,40): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(226,40): warning C4244: '인수': 'uint64_t'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(231,42): warning C4244: '인수': 'uint64_t'에서 'size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(525,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(528,20): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(700,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(703,24): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(925,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(933,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(967,64): warning C4244: '인수': 'uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(1027,25): warning C4244: '인수': 'std::streamoff'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(1089,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(1107,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\main.cpp(1114,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ra1n.vcxproj -> C:\Users\Seo Hyun-gyu\Documents\ra1n\Debug\ra1n.exe
