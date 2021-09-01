@@ -1,3 +1,0 @@
-﻿  iousb.c
-C:\Users\Seo Hyun-gyu\Documents\ra1n\ra1n\iousb.c(13,25): warning C4098: 'getSerialNumber': 'void' 함수에서 값을 반환하고 있습니다.
-  ra1n.vcxproj -> C:\Users\Seo Hyun-gyu\Documents\ra1n\x64\Debug\ra1n.exe

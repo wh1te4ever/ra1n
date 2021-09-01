@@ -18,54 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="aes.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ASN1DERElement.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="dfu.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="img4tool.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lzssdec.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="usbexec.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="checkra1n.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aes.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="aes.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ASN1DERElement.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="dfu.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="img4tool.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="lzssdec.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="usbexec.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="libusb.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="checkra1n.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

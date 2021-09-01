@@ -105,7 +105,7 @@ int DFU::my_libusb_control_transfer(libusb_device_handle* dev_handle,
     }
 
     sync_transfer_wait_for_completion(transfer);
-    printf("[*] transfered size: %d, data length: %d\n", transfer->actual_length, transfer->length);
+    printf("[*] Actual transferred length: %d, data length: %d\n", transfer->actual_length, transfer->length);
 
     // pgarba:
     // Check if data is a null ptr. This leads to a crash on windows and others
